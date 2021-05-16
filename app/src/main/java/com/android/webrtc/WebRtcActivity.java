@@ -147,7 +147,7 @@ public class WebRtcActivity extends AppCompatActivity implements View.OnClickLis
      */
     private void connectionWebsocket() {
         try {
-            webSocketClient = new WebSocketClient(URI.create(Constant.URL)) {
+            webSocketClient = new WebSocketClient(URI.create(SharePreferences.getInstance(WebRtcActivity.this).getServerUrl())) {
                 @Override
                 public void onOpen(ServerHandshake handshakedata) {
                     setText("已连接");

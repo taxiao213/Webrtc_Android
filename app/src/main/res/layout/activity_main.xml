@@ -6,6 +6,38 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        app:layout_constraintBaseline_toBaselineOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingStart="10dp"
+            android:paddingRight="10dp"
+            android:text="地址：" />
+
+        <EditText
+            android:id="@+id/et_address"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:onClick="setting"
+            android:paddingStart="10dp"
+            android:paddingRight="10dp"
+            android:text="设置" />
+    </LinearLayout>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="60dp"

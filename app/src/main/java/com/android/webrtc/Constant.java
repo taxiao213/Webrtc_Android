@@ -8,7 +8,7 @@ package com.android.webrtc;
  * 微信公众号:他晓
  */
 public class Constant {
-    public static final String URL = "ws://192.168.0.35:8081/websocket";//server服务器地址
+    public static final String URL = "ws://192.168.31.106:8080/webrtc/websocket";//server服务器地址
     public static final String STUN = "stun:stun.l.google.com:19302";//穿透服务器
     public static final String CHANNEL = "channel";
 
@@ -33,4 +33,6 @@ public class Constant {
     public static final int VIDEO_RESOLUTION_WIDTH = 320;
     public static final int VIDEO_RESOLUTION_HEIGHT = 240;
     public static final int VIDEO_FPS = 60;
+
+    public static final String SHARE_PREFERENCE_NAME = "webrtc_sp";
 }
