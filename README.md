@@ -1,5 +1,11 @@
 #### Webrtc_Android
 
+进技术交流群，添加微信
+
+![https://github.com/taxiao213/picture_material/raw/master/微信公众号/weixin_taxiao.png]
+(https://github.com/taxiao213/picture_material/raw/master/微信公众号/weixin_taxiao.png)
+
+
 webrtc android  端代码
 
 #### 环境：
